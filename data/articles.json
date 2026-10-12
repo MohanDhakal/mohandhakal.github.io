@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T13:59:14.872Z",
+  "generatedAt": "2026-10-12T17:27:06.008Z",
   "articles": [
     {
       "title": "Database and Different Backup Strategies",
@@ -65,6 +65,40 @@
       "filename": "client_authentication_in_postgresql.md"
     },
     {
+      "title": "Join Optimization in PostgreSQL: Nested Loop, Hash Join, and Merge Join",
+      "description": "Understand how PostgreSQL chooses join algorithms, read EXPLAIN ANALYZE plans, and identify practical opportunities to improve join performance.",
+      "excerpt": "Understand how PostgreSQL chooses join algorithms, read EXPLAIN ANALYZE plans, and identify practical opportunities to improve join performance.",
+      "category": "PostgreSQL",
+      "tags": [
+        "PostgreSQL",
+        "Query Optimization",
+        "Performance",
+        "EXPLAIN ANALYZE"
+      ],
+      "date": "2026-10-12",
+      "readingTime": 12,
+      "path": "articles/PostgreSQL/join_optimization in postgresql.md",
+      "slug": "postgresql/join-optimization-in-postgresql-nested-loop-hash-join-and-merge-join",
+      "filename": "join_optimization in postgresql.md"
+    },
+    {
+      "title": "Understanding Query Optimization with the Query Planner in PostgreSQL",
+      "description": "How to read EXPLAIN ANALYZE and understand why PostgreSQL picks a sequential, index, bitmap or parallel scan, with a hands-on example.",
+      "excerpt": "How to read EXPLAIN ANALYZE and understand why PostgreSQL picks a sequential, index, bitmap or parallel scan, with a hands-on example.",
+      "category": "PostgreSQL",
+      "tags": [
+        "PostgreSQL",
+        "Query Optimization",
+        "Indexes",
+        "EXPLAIN ANALYZE"
+      ],
+      "date": "2026-10-12",
+      "readingTime": 11,
+      "path": "articles/PostgreSQL/query_optimization_with_planner.md",
+      "slug": "postgresql/understanding-query-optimization-with-the-query-planner-in-postgresql",
+      "filename": "query_optimization_with_planner.md"
+    },
+    {
       "title": "Roles and Privileges Management in PostgreSQL",
       "description": "Creating and Managing Users and Roles in PostgreSQL with Role-level, Object-level privileges, and Ownership management. ",
       "excerpt": "Creating and Managing Users and Roles in PostgreSQL with Role-level, Object-level privileges, and Ownership management. ",
@@ -108,7 +142,7 @@
     },
     {
       "name": "PostgreSQL",
-      "count": 2
+      "count": 4
     }
   ]
 }

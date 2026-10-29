@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T17:27:06.008Z",
+  "generatedAt": "2026-10-29T12:54:51.585Z",
   "articles": [
     {
       "title": "Database and Different Backup Strategies",
@@ -47,6 +47,23 @@
       "path": "articles/Database Backup/point_in_time_recovery_in_postgres.md",
       "slug": "database-backup/physical-backup-and-point-in-time-recovery-pitr-with-wal-archiving",
       "filename": "point_in_time_recovery_in_postgres.md"
+    },
+    {
+      "title": "Bloom Indexes in PostgreSQL",
+      "description": "How bloom filters work, and how PostgreSQL uses them to index many columns with a single small index, with worked bit-level examples and a hands-on benchmark.",
+      "excerpt": "How bloom filters work, and how PostgreSQL uses them to index many columns with a single small index, with worked bit-level examples and a hands-on benchmark.",
+      "category": "PostgreSQL",
+      "tags": [
+        "PostgreSQL",
+        "Indexing",
+        "Bloom Filter",
+        "Query Optimization"
+      ],
+      "date": "2026-10-29",
+      "readingTime": 15,
+      "path": "articles/PostgreSQL/bloom index postgres.md",
+      "slug": "postgresql/bloom-indexes-in-postgresql",
+      "filename": "bloom index postgres.md"
     },
     {
       "title": "Client Authentication in PostgreSQL",
@@ -142,7 +159,7 @@
     },
     {
       "name": "PostgreSQL",
-      "count": 4
+      "count": 5
     }
   ]
 }
